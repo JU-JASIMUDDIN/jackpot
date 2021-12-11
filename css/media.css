@@ -1,0 +1,1435 @@
+/* extra large device start  */
+@media(max-width:1200px){
+    .navbar {
+        padding-top: 10px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .buttton_field {
+        top: 45px !important;
+    }
+    .buttton_field i {
+        font-size: 16px;
+    }
+    /* signup part  */
+    .form_left_text {
+        margin-top: 24px;
+    }
+}
+/* extra large device start  */
+/*  large device start  */
+@media(min-width:992px) and (max-width:1199.98px){
+    .navbar {
+        padding-top: 10px;
+    }
+   
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .navbar-expand-lg .log_item .logs {
+        margin: 60px 20px 0 10px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    /* banner part  */
+    #banner {
+        padding-top: 60px;
+        padding-bottom: 235px;
+    }
+    .jackpot_img {
+        left: -100px;
+        top: -40px;
+    }
+    .banner_right_head h3 {
+        font-size: 280px;
+        padding-bottom: 20px;
+    }
+    .banner_para p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-right: 24px;
+        padding-bottom: 10px;
+    }
+    .play a {
+        padding: 10px 20px;
+        border-bottom: 3px solid #3a0090;
+        font-size: 16px;
+    }
+    .game_overlay_text h4 {
+        padding-top: 40%;
+        padding-bottom: 30px;
+        font-size: 22px;
+    }
+    #spin {
+        padding-top: 100px;
+        padding-bottom: 180px;
+    }
+    .game_overlay_text a {
+        padding: 24px 15px;
+        border-bottom: 3px solid #3a0090;
+        font-size: 16px;
+    }
+    .spin_img {
+        position: absolute;
+        left: 0;
+        bottom: -484px;
+    }
+    .spin_text h3 {
+        font-size: 40px;
+        padding-bottom: 24px;
+    }
+    .spin_text p {
+        padding-bottom: 25px;
+    }
+    .st {
+        padding-top: 15px;
+    }
+    .spin_text a {
+        padding: 10px 20px;
+        border-bottom: 3px solid #3a0090;
+        font-size: 20px;
+    }
+    #pricing {
+        padding-top: 60PX;
+        padding-bottom: 100px;
+    }
+    .pricin_head_text h3 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .pricing_item_tp h4 {
+        font-size: 28px;
+    }
+    .pricing_item_tp h5 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Nunito', sans-serif;
+        padding-top: 20px;
+        padding-bottom: 13px;
+    }
+    .pricing_item_bp p {
+        padding-top: 24px;
+        font-size: 15px;
+    }
+    .pricing_btn a {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        font-size: 16px;
+    }
+    #faq {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .question h4 {
+        font-size: 14px;
+    }
+    .faq_text h3 {
+        font-size: 32px;
+        padding-bottom: 35px;
+    }
+    .faqitem {
+        margin-top: 40px;
+    }
+    .answer_text p {
+        padding-top: 16px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .count_item p {
+        padding-top: 60px;
+        font-size: 16px;
+    }
+    .count_part {
+        right: 50px;
+        top: 105px;
+    }
+    .countdown {
+        margin-left: 15px;
+        padding: 10px 5px;
+    }
+    .countdown h4 {
+        font-size: 16px;
+    }
+    .countdown h5 {
+        padding-top: 5px;
+        font-size: 14px;
+    }
+    .turnament_text_item {
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    .tti p {
+        font-size: 12px;
+    }
+    .subscrribe_head h4 {
+        font-size: 30px;
+    }
+    .email_field input {
+        width: 85%;
+    }
+    .buttton_field button {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .buttton_field {
+        top: 44px !important;
+        right: 37px;
+    }
+    .footer_items .footer_icons a {
+        margin-right: 10px;
+        padding: 10px 20px;
+        border-bottom: 3px solid #3a0090;
+    }
+    .footer_items .footer_icons a i {
+        font-size: 16px;
+    }
+    .footer_items .footer_icons a:hover {
+        background: linear-gradient(to top right,#ac0389,#fd38da );
+        border-bottom: 3px solid #661355;
+    }
+    .import_link_one a {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+    .secur_para p {
+        padding-top: 15px;
+        font-size: 15px;
+        padding-right: 0;
+        line-height: 16px;
+    }
+    .payment_type {
+        /* text-align: center !important; */
+        text-align: left !important;
+    }
+    /* signup part  */
+    .form_left_text h4 {
+        font-size: 14px;
+    }
+    .form_left_text a {
+        font-size: 13px;
+    }
+    .frt a {
+        font-size: 14px;
+        padding: 7px 10px 7px 10px;
+        border-bottom: 3px solid #3a0090;
+        margin-left: 20px;
+    }
+    .form_right_text h4 {
+        font-size: 14px;
+    }
+    .frt_pos a::after {
+        height: 30px;
+        left: -12px;
+        top: 6px;
+    }
+
+
+    .location_text h4 {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+
+    .location_text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .location a {
+        padding: 25px 30px;
+        border-bottom: 4px solid #3a0090;
+    }
+    
+}
+/*  large device end  */
+/*  medium device start  */
+@media(min-width:768px) and (max-width:991.98px){
+    .navbar {
+        padding-top: 10px;
+    }
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        padding-top: 60px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .navbar-expand-lg .log_item .logs {
+        margin: 10px 60px 0 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    /* banner part  */
+    #banner {
+        padding-top: 60px;
+        padding-bottom: 200px;
+    }
+    .banner_right_head h3 {
+        font-size: 200px;
+        padding-bottom: 15px;
+    }
+    .banner_para p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .play a {
+        padding: 14px 30px;
+        border-bottom: 3px solid #3a0090;
+        font-size: 14px;
+    }
+    
+    .position {
+        padding-bottom: 20px;
+        bottom: -300px;
+    }
+    .position_two {
+        padding-bottom: 20px;
+        bottom: -300px;
+    }
+    .position_three {
+        padding-bottom: 20px;
+        bottom: -300px;
+    }
+    .p_text p {
+        line-height: 20px;
+    }
+    /* spin part  */
+    #spin {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .spin_text h3 {
+        font-size: 34px;
+        padding-bottom: 20px;
+    }
+    .spin_text p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Nunito', sans-serif;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .st {
+        padding-top: 10px;
+    }
+    .spin_text a {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+    .spin_img {
+        left: 0;
+        bottom: -365px;
+    }
+    #pricing {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    .pricin_head_text h3 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+    .pricing_item_tp h4 {
+        font-size: 26px;
+    }
+    .pricing_item_tp h5 {
+        font-size: 36px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .pricing_item_tp {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .pricing_item:hover .pricing_item_tp{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .pricing_item_bp p {
+        padding-top: 25px;
+        font-size: 16px;
+    }
+    .pricing_btn a {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 3px solid #3a0090;
+        font-size: 15px;
+    }
+    .pricing_btn {
+        left: 50%;
+        bottom: -14px;
+    }
+    #faq {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .faq_text h3 {
+        font-size: 34px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    .faqitem {
+        margin-top: 20px;
+    }
+    .left_faq_text h3 {
+        font-size: 34px;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .count_part {
+        right: 170px;
+        top: 140px;
+    }
+    .countdown h4 {
+        font-size: 16px;
+    }
+    .countdown h5 {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .turnament_text_item {
+        margin-top: 60px;
+    }
+    #subscript {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .visa {
+        height: 35px;
+        width: 50px;
+    }
+    .subscrribe_head h4 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .email_field input {
+        width: 280px;
+        padding: 10px 15px;
+    }
+    .buttton_field button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .buttton_field {
+        top: 54px !important;
+        right: 30px;
+    }
+    .game_overlay_text h4 {
+        padding-top: 35%;
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+    .game_overlay_text a {
+        padding: 20px 16px;
+        border-bottom: 3px solid #3a0090;
+        font-size: 14px;
+    }
+    /* about part  */
+    #about_spin {
+        padding-top: 145px;
+        padding-bottom: 40px;
+    }
+    .about_spin_text a {
+        padding: 10px 20px;
+        border-bottom: 3px solid #3a0090;
+        font-size: 16px;
+    }
+    .about_spin_text p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+    .abs_text_item {
+        left: 145px;
+        bottom: 76px;
+    }
+    .about_spin_img {
+        left: 0px;
+        bottom: 15px;
+    }
+    #about_game {
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+    .game_head_text h3 {
+        font-size: 36px;
+        padding-bottom: 40px;
+    }
+    /* singup  part  */
+    #singup {
+        padding-top: 125px;
+        padding-bottom: 70px;
+    }
+    .signup_img {
+        left: -69px;
+        top: 8px;
+    }
+    .signup_head {
+        margin-bottom: 25px;
+    }
+    .sign_field {
+        margin-bottom: 0px;
+    }
+    .signup_head h4 {
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+    .signup_head p {
+        font-size: 12px;
+    }
+    .signup_head p::after {
+        height: 2px;
+        left: 0;
+        bottom: -16px;
+    }
+    .sign_field input {
+        padding-bottom: 8px;
+        padding-right: 0;
+        padding-left: 2px;
+        padding-top: 8px;
+        font-size: 12px;
+    }
+    .sign_field button {
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .form_left_text h4 {
+        font-size: 12px;
+    }
+    .form_left_text a {
+        font-size: 12px;
+    }
+    .form_left_text {
+        margin-top: 5px;
+    }
+    .form_right_text h4 {
+        font-size: 12px;
+    }
+    .frt a {
+        font-size: 13px;
+        padding: 5px 10px 5px 10px;
+        margin-left: 5px;
+    }
+    .frt_pos a::after {
+        height: 25px;
+        left: -5px;
+        top: 5px;
+    }
+    /* login patrt  */
+    .signup_img {
+        top: -18px;
+    }
+    .sign_field input {
+        padding-bottom: 10px;
+        padding-right: 0;
+        padding-left: 2px;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    .log_left {
+        margin-top: 5px;
+    }
+    /* contact part  */
+    .map_overlay {
+        padding-top: 225px;
+        padding-bottom: 20px;
+    }
+    .location a {
+        padding: 15px 25px;
+    }
+    .location_text h4 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .location_text p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .location a i {
+        font-size: 23px;
+    }
+} 
+/*  medium device end  */
+/*  small device start  */
+@media(min-width:576px) and (max-width:767.98px){
+    .navbar {
+        padding-top: 10px;
+    }
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        padding-top: 60px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .navbar-expand-lg .log_item .logs {
+        margin: 15px 40px 0 -10px;
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+    /* banner part  */
+    #banner {
+        padding-top: 0px !important;
+        padding-bottom: 140px;
+    }
+    
+    .banner_right_head{
+        text-align: center;
+    }
+    .banner_right_head h4 {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    .banner_right_head h3 {
+        font-size: 330px;
+        padding-bottom: 35px;
+        text-align: center !important;
+    }
+    .banner_para p {
+        font-size: 16px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .play a {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    .position {
+        padding-bottom: 25px;
+        bottom: -250px;
+    }
+    .p_text h4 {
+        font-size: 20px;
+    }
+    .p_text h3 {
+        font-size: 40px;
+    }
+    .p_text p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .position_two {
+        padding-bottom: 26px;
+        left: 50%;
+        bottom: -250px;
+    }
+    .position_three {
+        padding-bottom: 26px;
+        right: 0;
+        bottom: -250px;
+    }
+    /* game part  */
+    #game {
+        padding-top: 160px;
+        padding-bottom: 50px;
+    }
+    .game_head_text h3 {
+        font-size: 40px;
+        padding-bottom: 45px;
+    }
+    .game_overlay_text h4 {
+        padding-top: 30%;
+        padding-bottom: 24px;
+        font-size: 16px;
+    }
+    .game_overlay_text a {
+        padding: 18px 10px;
+        font-size: 14px;
+    }
+    /* spin part  */
+    #spin {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .spin_text h3 {
+        font-size: 30px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .spin_text p {
+        line-height: 20px;
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+    .st {
+        padding-top: 10px;
+    }
+    .spin_text a {
+        padding: 8px 5px;
+        border-bottom: 3px solid #3a0090;
+        font-size: 16px;
+    }
+    .spin_img {
+        left: -30px;
+        bottom: -314px;
+    }
+    /* pricing part  */
+    #pricing {
+        padding-top: 50PX;
+        padding-bottom: 100px;
+    }
+    .pricin_head_text h3 {
+        font-size: 34px;
+        padding-bottom: 10px;
+    }
+    .pricing_item_tp {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .pricing_item:hover{
+        margin-top: 20px;
+    }
+    .pricing_item:hover .pricing_item_tp{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .pricing_item_tp h4 {
+        font-size: 20px;
+    }
+    .pricing_item_tp h5 {
+        font-size: 25px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .pricing_item_bp p {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    .pricing_item_bp {
+        padding-bottom: 30px;
+    }
+    .pricing_btn a {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-top: 9px;
+        border-bottom: 3px solid #3a0090;
+        font-size: 12px;
+    }
+    .pricing_btn a:hover {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 7px;
+            padding-top: 9px;
+        border-bottom: 3px solid #661355;
+    }
+    /* faq part  */
+    #faq {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .faq_text h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .faqitem {
+        margin-top: 15px;
+        padding: 15px 7px 20px 10px;
+    }
+    .question h4 {
+        font-size: 15px;
+    }
+    .answer_text p {
+        padding-top: 10px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .left_faq_text h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .count_item p {
+        padding-top: 35px;
+        font-size: 16px;
+    }
+    .count_part {
+        left: 150px;
+        top: 70px;
+    }
+    .countdown {
+        margin-left: 15px;
+        padding: 10px 6px;
+    }
+    .countdown h5 {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .tti p {
+        font-size: 12px;
+    }
+    .countdown h4 {
+        font-size: 12px;
+    }
+    .turnament_text_item {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .subscrribe_head h4 {
+        font-size: 24px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .email_field input {
+        width: 430px;
+        padding: 10px 10px;
+    }
+    .buttton_field {
+        top: 50px !important;
+        right: 52px;
+    }
+    .buttton_field button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #subscript {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+    .subscrribe_head h4 {
+        padding-top: 10px;
+    }
+    .buttton_field i {
+        font-size: 12px;
+    }
+    /* footer part  */
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer_items .footer_item_head h3 {
+        margin-bottom: 20px;
+        font-size: 26px;
+        
+    }
+    .footer_items .footer_para p {
+        padding-bottom: 20px;
+      
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .footer_items .footer_icons a {
+        margin-right: 11px;
+        padding: 10px 15px;
+        border-bottom: 3px solid #3a0090;
+    }
+    .footer_items .footer_icons a:hover {
+        border-bottom: 3px solid #3a0090;
+        border-bottom: 3px solid #661355;
+    }
+    .import_link_one a {
+        padding-top: 12px;
+        font-size: 12px;
+    }
+    .secur_para p {
+        padding-top: 0px;
+        font-size: 12px;
+        padding-right: 60px;
+        line-height: 14px;
+    }
+    .footer_last_text p {
+        font-size: 12px;
+    }
+    #footer_last {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /* about.html part  */
+    .about_spin_img {
+        left: 60px;
+        bottom: 20px;
+    }
+    .about_spin_text a {
+        padding: 10px 19px;
+        font-size: 18px;
+    }
+    .abs_text_item {
+        left: 155px;
+        bottom: 5px;
+    }
+    #about_game {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .game_head_text h3 {
+        font-size: 26px;
+        padding-bottom: 25px;
+    }
+    .slick-dots li.slick-active {
+        height: 22px;
+        width: 20px;
+    }
+    .slick-dots li button {
+        height: 10px;
+        width: 10px;
+    }
+    /* about.html part  */
+    /* game.html part  */
+    #games {
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+    
+    /* game.html part  */
+    /* member.html part  */
+    .buttton_field {
+        top: 49px !important;
+    }
+    /* member.html part  */
+    /* signing.html part  */
+    #singup {
+        padding-top: 150px;
+        padding-bottom: 40px;
+        background: #0b001b;
+    }
+    .signup_img_part {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+    .sign_field {
+        margin-bottom: 10px;
+    }
+    .sign_field input {
+        padding-bottom: 10px;
+        padding-right: 0;
+        padding-left: 2px;
+        padding-top: 5px;
+    }
+    .form_left_text {
+        margin-top: 10px;
+    }
+    .form_left_text h4 {
+        font-size: 12px;
+    }
+    .form_left_text a {
+        font-size: 12px;
+    }
+    .form_right_text h4 {
+        font-size: 12px;
+    }
+    .frt a {
+        font-size: 12px;
+        padding: 5px 10px 10px 10px;
+        margin-left: 25px;
+    }
+    .frt_pos a::after {
+        height: 27px;
+        width: 1px;
+        left: -15px;
+        top: 5px;
+    }
+    /* signing.html part  */
+    /* login.html part  */
+    .log_left {
+        margin-top: 10px;
+    }
+    /* login.html part  */
+    
+/* contact ====================contact.html start */
+.location a {
+	padding: 20px 30px;
+    border-bottom: 3px solid #3a0090;
+}
+.location a i {
+	font-size: 20px;
+}
+.location_text h4 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.location_text p {
+	font-size: 14px;
+	line-height: 16px;
+}
+.p-0 {
+	padding: 10px !important;
+}
+/* contact ====================contact.html end */
+}
+/*  small device end  */
+/* extra small device start  */
+@media(max-width:575.98px){
+    .navbar {
+        padding-top: 10px;
+    }
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        padding-top: 60px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+        margin-top: 0;
+    }
+    .navbar-expand-lg .log_item .logs {
+        margin: 15px 40px 0 -10px;
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+    /* banner part  */
+    #banner {
+        padding-top: 0px !important;
+        padding-bottom: 140px;
+    }
+    .about_text h3 {
+        color: #fcb100;
+        font-size: 48px;
+        font-weight: 400;
+        font-family: 'Anton', sans-serif;
+        text-shadow: 0px 10px rgba(0, 0, 0, 0.50), 0px 0px 70px rgba(236, 13, 191, 0.55);
+        padding-bottom: 15px;
+        line-height: 50px;
+    }
+    .banner_right_head{
+        text-align: center;
+    }
+    .banner_right_head h4 {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    .banner_right_head h3 {
+        font-size: 200px;
+        padding-bottom: 35px;
+        text-align: center !important;
+    }
+    .banner_para p {
+        font-size: 16px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .play a {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    .position {
+        padding-bottom: 25px;
+        bottom: -250px;
+    }
+    .p_text h4 {
+        font-size: 20px;
+    }
+    .p_text h3 {
+        font-size: 40px;
+    }
+    .p_text p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .position_two {
+        padding-bottom: 26px;
+        left: 50%;
+        bottom: -250px;
+    }
+    .position_three {
+        padding-bottom: 26px;
+        right: 0;
+        bottom: -250px;
+    }
+    /* game start  */
+    #game {
+        padding-top: 145px;
+        padding-bottom: 40px;
+    }
+    .game_head_text h3{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .game_img_items{
+        margin-top: 20px;
+    }
+    .game_overlay_text h4 {
+        padding-top: 40%;
+        font-size: 20px;
+    }
+    .game_overlay_text a {
+        padding: 20px 12px;
+        font-size: 18px;
+    }
+    /* spin part  */
+    #spin {
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+    .spin_img_part{
+       padding-bottom: 300px;
+    }
+    .spin_img {
+        left: 0;
+        bottom: 0;
+    }
+    .spin_text h3 {
+        text-align: center;
+    }
+    .spin_text h3 {
+        font-size: 42px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .spin_text p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .st {
+        padding-top: 10px;
+    }
+    .spin_text{
+        text-align: center;
+    }
+    .spin_text a {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    /* pricing === */
+    #pricing {
+        padding-top:  50px;
+        padding-bottom: 100px;
+    }
+    .pricin_head_text h3 {
+        font-size: 14px;
+        padding-bottom: 0;
+       
+    }
+    .pricing_item_tp {
+        padding-top: 12px;
+        padding-bottom: 15px;
+    }
+
+    .pricing_item:hover{
+        margin-top: 50px;
+    }
+    .pricing_item:hover .pricing_item_tp{
+        padding-top: 12px;
+        padding-bottom: 15px;
+    }
+    .pricing_item_tp h4 {
+        font-size: 20px;
+    }
+    .pricing_item_tp h5 {
+        font-size: 22px;
+        padding-top: 15px;
+        padding-bottom: 11px;
+    }
+    .pricing_item_tp p {
+        font-size: 11px;
+    }
+    .pricing_item_bp p {
+        padding-top: 15px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .pricing_item_head h4 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .pricing_btn a {
+        padding-right: -43px;
+        padding-bottom: 5px;
+        padding-top: 4px;
+        font-size: 13px;
+    }
+    .pricing_item_tp h4 {
+        line-height: 26px;
+    }
+    .pricing_item_head {
+        padding-top: 13px;
+        padding-bottom: 20px;
+        margin-top: 35px;
+    }
+    .pricing_btn a {
+        padding-left: 12px;
+        padding-right: 9px;
+        padding-bottom: 9px;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    /* faq part  */
+    #faq {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .faq_text h3 {
+        text-align: center;
+        font-size: 26px;
+        padding-bottom: 25px;
+    }
+    .faqitem {
+        margin-top: 15px;
+        padding: 10px 0px 25px 5px;
+    }
+    .question h4 {
+        font-size: 12px;
+        padding-right: 38px;
+        line-height: 16px;
+    }
+    .answer_text p {
+        padding-top: 10px;
+        line-height: 20px;
+    }
+    .left_faq_text h3 {
+        font-size: 30px;
+        padding-bottom: 25px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .count_item p {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .count_part {
+        right: 50px;
+        top: 125px;
+    }
+    .countdown {
+        text-align: center;
+        margin-left: 10px;
+        padding: 10px 6px;
+    }
+    .countdown h4 {
+        font-size: 12px;
+    }
+    .countdown h5 {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    .tti{
+       text-align: center;
+    }
+    .tti_img {
+        line-height: 0;
+        text-align: center;
+    }
+    .tti p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .tti_img {
+        padding-top: 10px;
+    }
+    .email_field input {
+        width: 255px;
+        padding: 5px 10px;
+    }
+    .buttton_field i {
+        font-size: 11px;
+    }
+    .subscrribe_head h4 {
+        font-size: 24px;
+    }
+    .buttton_field {
+        top: 39px !important;
+        right: 24px;
+    }
+    .buttton_field button {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .payment_type {
+        text-align: center;
+    }
+    .visa {
+        margin-right: 8px;
+        margin-bottom: 10px;
+    }
+    /* footer part  */
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer_items .footer_item_head h3 {
+        margin-bottom: 20px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .footer_items .footer_para p {
+        padding-bottom: 15px;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .footer_icons{
+        text-align: center;
+    }
+    .footer_items .footer_item_head h3 {
+        margin-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .footer_items .footer_icons a {
+        margin-right:0px 10px;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+    }
+    .secur_para p {
+        padding-top: 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .import_link_one a {
+        font-size: 15px;
+        padding-bottom: 9px;
+        padding-top: 9px;
+    }
+    .secur_two .sp p{
+        padding-top: 0;
+    }
+    #footer_last {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer_last_text p {
+        font-size: 10px;
+    }
+/* about ====================about.html */
+#banner {
+    padding-top: 125px;
+    padding-bottom: 140px;
+}
+.about_spin_img {
+	left: 0px;
+	bottom: 50px;
+}
+.about_spin_text p {
+	font-size: 14px;
+	line-height: 23px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.about_spin_text a {
+	padding: 10px 15px;
+	border-bottom: 3px solid #3a0090;
+	font-size: 12px;
+}
+.abs_text_item {
+	left: 125px;
+	bottom: 0px;
+}
+#about_game {
+	padding-top: 40px;
+	padding-bottom: 90px;
+	background: #150035;
+}
+/* about ====================about.html end */
+/* singup ====================singup.html start */
+#singup {
+	padding-top: 650px;
+	padding-bottom: 100px;
+}
+.signup_img {
+	left: 0;
+	top: -550px;
+}
+/* singup ====================singup.html end */
+/* contact ====================contact.html start */
+.map {
+	padding-top: 150px;
+	padding-bottom: 0px;
+    text-align: center;
+}
+.map_overlay {
+	padding-top: 120px;
+	padding-bottom:20px;
+}
+.location a {
+	padding: 15px 20px;
+	margin-bottom: 15px;
+}
+.location a i {
+	font-size: 26px;
+}
+.location_text{
+    margin-bottom: 20px;
+}
+.location_text h4 {
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+.location_text p {
+	font-size: 16px;
+	line-height: 20px;
+}
+.subscribe{
+    margin: 0 auto;
+    text-align: center;
+}
+.subscrribe_head{
+    text-align: center;
+}
+.email_field input {
+	min-width: 85%;
+}
+.buttton_field {
+    width: 17%;
+	top: 40px;
+	right: -3px;
+}
+.buttton_field button {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.import_link_one{
+    text-align: center;
+}
+.secur_two {
+	padding-top: 20px;
+}
+.secur_para{
+    text-align: center;
+}
+.secur_para p {
+	padding-top: 14px;
+	font-size: 14px;
+	line-height: 15px;
+	padding-left: 50px;
+}
+.secur_images{
+    text-align: center;
+}
+.secur_images .w-100 {
+	width: 15% !important;
+}
+
+/* contact ====================contact.html end */
+/* member ====================contact.html start */
+.about_text h3 {
+	line-height: 50px;
+}
+
+/* member ====================contact.html end */
+}
+/* extra small end */

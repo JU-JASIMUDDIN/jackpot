@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackpot/login</title>
+    <link type="images/png" rel="shortcurt icon" href="images//sitebar_logo.png">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200;400;700;900&display=swap" rel="stylesheet">
+    <!-- google fonts  -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+    <!--============== nav part start  ==============-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"> About us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="member.html">Pricing </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item log_item">
+                        <a class="nav-link logs" href="singup.html">Signup</a>
+                        <a class="nav-link logs" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--============== nav part end  ==============-->
+    <!--============== banner part start  ==============-->
+    <section id="about_banner">
+        <div class="container posi">
+           <div class="row">
+               <div class="col-lg-12 text-center">
+                   <div class="about">
+                       <div class="about_text">
+                           <h3>Login</h3>
+                           <h4>Home > login</h4>
+                       </div>
+                   </div>
+               </div>
+            </div>
+                <!-- banner right part end  -->
+                <!-- position part start  -->
+                <div class="about_position p_text">
+                    <h3>01</h3>
+                    <h4>Register</h4>
+                    <p>Download the app and signup for account</p>
+                </div>
+                <div class="about_position_two p_text">
+                    <h3>02</h3>
+                    <h4>Get Ready</h4>
+                    <p>Deposit & get ready for play betting</p>
+                </div>
+                 <div class="about_position_three p_text">
+                    <h3>03</h3>
+                    <h4>Enjoy</h4>
+                    <p>Betting more and more & enjoy game</p>
+                </div>
+                <!-- position part end  -->
+           </div>
+        </div>
+    </section>
+    <!--============== banner part end  ==============-->
+    <!--============= signup part START  ==============-->
+    <section id="singup">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5">
+                    <div class="signup_img_part">
+                        <div class="signup_img">
+                            <img src="images/Signup.png" alt="sign_img" class="w-100 img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7">
+                    <div class="signup">
+                        <div class="signup_head">
+                            <h4>Log in</h4>
+                            <p>Login quickly to get all other facilities</p>
+                        </div>
+                        <div class="form">
+                            <form action="#" method="post">
+                                <div class="sign_field">
+                                    <input type="text" placeholder="your e-mail here" id="e_mail">
+                                    <div class="err" id="e_err"></div>
+                                    <div class="sign_icon">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="sign_field">
+                                    <input type="text" placeholder="your password here" id="password">
+                                    <div class="err" id="pass_err"></div>
+                                    <div class="sign_icon">
+                                        <i class="fa fa-lock"></i>
+                                    </div>
+                                </div>
+                                <div class="sign_field mb">
+                                    <button type="submit" onclick="return log()">Log in</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="form_btm_item">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-5 col-md-4">
+                                    <div class="form_right_text log_left">
+                                        <h4>Forgot Password?</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-sm-7 col-md-8 text-right">
+                                    <div class="form_left_text">
+                                        <h4>Do you have already an account yet?</h4>
+                                        <a href="singup.html">Sign up</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============== signup part END  ==============-->
+    <!--============== sub_pay part START  ==============-->
+    <section id="subscript">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="subscribe">
+                        <div class="subscrribe_head">
+                            <h4>Subscribe for Offers</h4>
+                        </div>
+                        <div class="email">
+                            <form action="#" method="post">
+                               <div class="email_field">
+                                <input type="email" placeholder="Your e-mail here" id="email">
+                                <div class="err" id="eml_err"></div>
+                               </div>
+                               <div class="buttton_field" onclick="return sub()" id="button">
+                                   <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                               </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="payment">
+                        <div class="subscrribe_head">
+                            <h4>Payment Method</h4>
+                        </div>
+                        <div class="payment_type text-sm-center">
+                            <div class="visa">
+                                <a href="#"><img src="images/paypal.png" alt="paypal" class="w-100 img-fluid"></a>
+                            </div>
+                            <div class="visa">
+                                <a href="#"><img src="images/visa.png" alt="visa" class="w-100 img-fluid"></a>
+                            </div>
+                            <div class="visa">
+                                <a href="#"><img src="images/dise.jpg" alt="dise" class="w-100 img-fluid"></a>
+                            </div>
+                            <div class="visa">
+                                <a href="#"><img src="images/amxe.png" alt="amxe" class="w-100 img-fluid"></a>
+                            </div>
+                            <div class="visa mr">
+                                <a href="#"><img src="images/mastar.png" alt="mastar" class="w-100 img-fluid"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============== sub_pay part END  ==============-->
+    <!--============== footer part START  ==============-->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- footer_items_one  -->
+                <div class="col-lg-4 text-sm-center text-lg-left">
+                    <div class="footer_items">
+                        <div class="footer_item_head mb">
+                            <h3>About Jackpot</h3>
+                        </div>
+                        <div class="footer_para">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+                        </div>
+                        <div class="footer_icons ">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus" ></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer_items_one  -->
+                <!-- footer_items_two  -->
+                <div class="col-lg-4 col-sm-6 mt-sm-4 mt-lg-0">
+                    <div class="footer_items">
+                        <div class="footer_item_head">
+                            <h3>Important Links</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-7">
+                                <div class="import_link_one">
+                                    <a class="pt" href="#">Live Score</a>
+                                </div>
+                                <div class="import_link_one mt">
+                                    <a href="#">How to Play</a>
+                                </div>
+                                <div class="import_link_one mt">
+                                    <a href="#">Tournaments</a>
+                                </div>
+                                 <div class="import_link_one mt">
+                                    <a href="#">Registration Bonus</a>
+                                </div>
+                                <div class="import_link_one mt">
+                                    <a href="contact.html">Contact</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-5">
+                                <div class="import_link_one">
+                                    <a class="pt" href="#">Help Desk</a>
+                                </div>
+                                 <div class="import_link_one mt">
+                                    <a href="#">FAQ</a>
+                                </div>
+                                <div class="import_link_one mt">
+                                    <a href="#">Support</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer_items_two  -->
+                <!-- footer_items_three  -->
+                <div class="col-lg-4 col-sm-6 mt-sm-4 mt-lg-0">
+                    <div class="footer_items">
+                        <div class="footer_item_head">
+                            <h3>Security Info</h3>
+                        </div>
+                        <!-- footer_items_three/one  -->
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-3">
+                                <div class="secur_img">
+                                    <div class="secur_images">
+                                        <img src="images/security_one.png" alt="security_one" class="w-100 img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-sm-9">
+                                <div class="secur_text">
+                                    <div class="secur_para">
+                                        <p>Safe & Secure
+                                            Banking</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- footer_items_three/one  -->
+                        <!-- footer_items_three/two  -->
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-3">
+                                <div class="secur_img secur_two">
+                                    <div class="secur_images">
+                                        <img src="images/securit_two.png" alt="security_two" class="w-100 img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-sm-9">
+                                <div class="secur_text secur_two">
+                                    <div class="secur_para sp ">
+                                        <p>Total 203 Million
+                                            Registered Users
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer_items_three/two  -->
+                <!-- footer_items_three  -->
+            </div>
+        </div>
+    </section>
+    <!--============== footer part end  ==============-->
+    <!--============== footer last part start  ==============-->
+    <section id="footer_last">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer_last_text text-center">
+                        <i class="fa fa-copyright"></i>
+                        <p> 2018. All rights reserved by Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============== footer last part end  ==============-->
+    <!--============== nav part start  ==============-->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>
