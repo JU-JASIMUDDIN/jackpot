@@ -235,13 +235,10 @@
         left: -12px;
         top: 6px;
     }
-
-
     .location_text h4 {
         font-size: 22px;
         padding-bottom: 25px;
     }
-
     .location_text p {
         font-size: 16px;
         line-height: 20px;
@@ -259,7 +256,8 @@
         padding-top: 10px;
     }
     .navbar-toggler:not(:disabled):not(.disabled) {
-        padding-top: 60px;
+        /* padding-top: 60px; */
+        margin-top: 60px;
     }
     .navbar-nav{
         text-align: center;
@@ -579,7 +577,8 @@
         padding-top: 10px;
     }
     .navbar-toggler:not(:disabled):not(.disabled) {
-        padding-top: 60px;
+        /* padding-top: 60px; */
+        margin-top: 60px;
     }
     .navbar-nav{
         text-align: center;
@@ -981,7 +980,8 @@
         padding-top: 10px;
     }
     .navbar-toggler:not(:disabled):not(.disabled) {
-        padding-top: 60px;
+        /* padding-top: 60px; */
+        margin-top: 60px;
     }
     .navbar-nav{
         text-align: center;
@@ -1119,7 +1119,6 @@
     .pricin_head_text h3 {
         font-size: 14px;
         padding-bottom: 0;
-       
     }
     .pricing_item_tp {
         padding-top: 12px;
@@ -1423,13 +1422,11 @@
 .secur_images .w-100 {
 	width: 15% !important;
 }
-
 /* contact ====================contact.html end */
 /* member ====================contact.html start */
 .about_text h3 {
 	line-height: 50px;
 }
-
 /* member ====================contact.html end */
 }
 /* extra small end */

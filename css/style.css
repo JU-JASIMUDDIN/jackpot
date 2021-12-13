@@ -42,6 +42,41 @@ h1,h2,h3,h4,h5,h6,p{
 .navbar-toggler i{
     color: #fff;
 }
+.navbar .navbar-nav .nav-item{
+    position: relative;
+}
+.navbar .navbar-nav .nav-item .price_link{
+    position: absolute;
+    left: 0;
+    top: 110px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.navbar .navbar-nav .nav-item:hover > .price_link{
+   opacity: 1;
+   visibility: visible;
+}
+
+.navbar .navbar-nav .price_link_item .price_link .price_link_one{
+    color: #944bff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.navbar .navbar-nav .nav-item .price_link .price_link_one:hover{
+    color: #ff39dc;
+}
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 30px 0;
     margin-right: 44px;
@@ -55,7 +90,6 @@ h1,h2,h3,h4,h5,h6,p{
     -ms-transition: .4s;
     -o-transition: .4s;
     margin-top: 40px;
-   
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover{
    color: #ff39dc;
