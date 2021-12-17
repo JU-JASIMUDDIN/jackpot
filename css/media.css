@@ -11,10 +11,10 @@
         font-size: 20px;
     }
     .buttton_field {
-        top: 46px !important;
+        top: 45px !important;
     }
     .buttton_field i {
-        font-size: 15px;
+        font-size: 16px;
     }
     /* signup part  */
     .form_left_text {
@@ -255,13 +255,24 @@
     .navbar {
         padding-top: 10px;
     }
-    .navbar-toggler:not(:disabled):not(.disabled) {
-        /* padding-top: 60px; */
-        margin-top: 60px;
-    }
     .navbar-nav{
         text-align: center;
     }
+    .navbar-nav li ul {
+        margin-top: 25px;
+        z-index: 99;
+        background: #3a0090;
+        left: 49%;
+        top: 20px;
+        padding: 0 5px;
+        /* text-align: center; */
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 5px;
         margin-top: 5px;
@@ -576,16 +587,35 @@
     .navbar {
         padding-top: 10px;
     }
-    .navbar-toggler:not(:disabled):not(.disabled) {
-        /* padding-top: 60px; */
-        margin-top: 60px;
-    }
     .navbar-nav{
-        text-align: center;
+        /* text-align: center; */
+        display:block;
+    }
+    .navbar-nav li ul {
+        margin-top: 20px;
+        z-index: 99;
+        background: #3a0090;
+        left: 48%;
+        top: 20px;
+        padding: 0 5px;
+        /* text-align: center; */
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+.navbar-nav li ul li a {
+	font-size: 18px;
+}
+    .count_part {
+        left: 170px;
+        top: 85px !important;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 5px;
         margin-top: 5px;
+        display:inline-block;
     }
     .navbar-expand-lg .log_item .logs {
         margin: 15px 40px 0 -10px;
@@ -767,12 +797,12 @@
         text-align: center;
     }
     .count_item p {
-        padding-top: 35px;
+        padding-top: 40px;
         font-size: 16px;
     }
     .count_part {
         left: 150px;
-        top: 70px;
+        top: 810px;
     }
     .countdown {
         margin-left: 15px;
@@ -789,7 +819,7 @@
         font-size: 12px;
     }
     .turnament_text_item {
-        margin-top: 40px;
+        margin-top: 50px;
         margin-bottom: 15px;
     }
     .subscrribe_head h4 {
@@ -979,13 +1009,26 @@
     .navbar {
         padding-top: 10px;
     }
-    .navbar-toggler:not(:disabled):not(.disabled) {
-        /* padding-top: 60px; */
-        margin-top: 60px;
-    }
     .navbar-nav{
         text-align: center;
     }
+    .navbar-nav li ul {
+        margin-top: 10px;
+        z-index: 99;
+        background: #3a0090;
+        left: 48%;
+        top: 20px;
+        padding: 0 5px;
+        /* text-align: center; */
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+.navbar-nav li ul li a {
+	font-size: 16px;
+}
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 0;
         margin-top: 0;
@@ -1202,17 +1245,26 @@
         padding-top: 40px;
         text-align: center;
     }
+    .count_item {
+        display: block;
+        text-align: center;
+    }
     .count_item p {
-        padding-top: 10px;
+        padding-top: 15px;
         font-size: 16px;
     }
     .count_part {
-        right: 50px;
-        top: 125px;
-    }
+        right:50%;
+        top: 135px;
+        transform: translatex(50%);
+        -webkit-transform: translatex(50%);
+        -moz-transform: translatex(50%);
+        -ms-transform: translatex(50%);
+        -o-transform: translatex(50%);
+}
     .countdown {
         text-align: center;
-        margin-left: 10px;
+        margin-left: 8px;
         padding: 10px 6px;
     }
     .countdown h4 {

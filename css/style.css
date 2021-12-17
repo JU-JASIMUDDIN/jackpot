@@ -42,11 +42,12 @@ h1,h2,h3,h4,h5,h6,p{
 .navbar-toggler i{
     color: #fff;
 }
-.navbar .navbar-nav .nav-item{
+.navbar-nav li {
     position: relative;
 }
-.navbar .navbar-nav .nav-item .price_link{
+.navbar-nav li ul {
     position: absolute;
+    background: transparent;
     left: 0;
     top: 110px;
     opacity: 0;
@@ -57,12 +58,12 @@ h1,h2,h3,h4,h5,h6,p{
     -ms-transition: .4s;
     -o-transition: .4s;
 }
-.navbar .navbar-nav .nav-item:hover > .price_link{
-   opacity: 1;
-   visibility: visible;
+.navbar-nav li:hover > ul {
+    opacity: 1;
+    visibility: visible;
 }
 
-.navbar .navbar-nav .price_link_item .price_link .price_link_one{
+.navbar-nav li ul li a {
     color: #944bff;
     font-size: 20px;
     font-weight: 600;
@@ -73,10 +74,10 @@ h1,h2,h3,h4,h5,h6,p{
     -ms-transition: .4s;
     -o-transition: .4s;
 }
-
-.navbar .navbar-nav .nav-item .price_link .price_link_one:hover{
+.navbar-nav li ul li a:hover {
     color: #ff39dc;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 30px 0;
     margin-right: 44px;
@@ -91,6 +92,7 @@ h1,h2,h3,h4,h5,h6,p{
     -o-transition: .4s;
     margin-top: 40px;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link:hover{
    color: #ff39dc;
 }
@@ -722,7 +724,7 @@ h1,h2,h3,h4,h5,h6,p{
     position: absolute;
     text-align: center;
     top: 46px;
-    right: 40px;
+    right: 39px;
 }
 .buttton_field button{
     background: transparent;
@@ -736,7 +738,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .buttton_field i{
     color:#3a0090 ;
-    font-size: 15px;
+    font-size: 16px;
 }
 .email_field input{
     width: 470px;
@@ -1139,6 +1141,12 @@ h1,h2,h3,h4,h5,h6,p{
     padding-top: 220px;
     padding-bottom: 100px;
     background: #0b001b;
+}
+.game_field{
+        position: absolute;
+        text-align: center;
+        top: 45px;
+        right: 40px;
 }
 /*============games.html games part END  ============*/
 /*============sing.html signup part START  ============*/
