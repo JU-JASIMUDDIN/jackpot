@@ -272,7 +272,6 @@
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
 }
-
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 5px;
         margin-top: 5px;
@@ -302,7 +301,6 @@
         border-bottom: 3px solid #3a0090;
         font-size: 14px;
     }
-    
     .position {
         padding-bottom: 20px;
         bottom: -300px;
