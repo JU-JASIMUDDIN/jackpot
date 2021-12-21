@@ -20,6 +20,25 @@
     .form_left_text {
         margin-top: 24px;
     }
+    /* promotion =======promtion.html start */
+    .player_one {
+        top: 0;
+        left: 50%;
+    }
+    .player_two {
+        top: 50%;
+        left: -50px;
+    }
+    .player_three {
+        top: 50%;
+        right: -50px;
+    }
+    .player_four {
+        left: 50%;
+        bottom: 0;
+    }
+    /* promotion =======promtion.html end */
+   
 }
 /* extra large device start  */
 /*  large device start  */
@@ -247,6 +266,31 @@
         padding: 25px 30px;
         border-bottom: 4px solid #3a0090;
     }
+    /* promotion ===========promotion.html start */
+    .promo_left_text {
+        margin-top: 175px;
+    }
+    .player_one {
+        top: 0;
+        left: 50%;
+    }
+    .player_two {
+        top: 50%;
+        left: -40px;
+    }
+    .player_three {
+        top: 50%;
+        right: -40px;
+    }
+    .player_four {
+        left: 50%;
+        bottom: 0;
+    }
+    .player_text h3 {
+        font-size: 39px;
+        padding-bottom: 30px;
+    }
+    /* promotion ===========promotion.html end */
     
 }
 /*  large device end  */
@@ -578,6 +622,79 @@
     .location a i {
         font-size: 23px;
     }
+    /* promotion ===============promotion.html start */
+    .promo_img_overlay h3 {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .promo_left_text {
+        margin-top: 130px;
+    }
+    .promo_left_text h3 {
+        font-size: 165px;
+    }
+    .promo_left_text p {
+        font-size: 43px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+    }
+    .promo_left_text h4 {
+        font-size: 70px;
+        padding-left: 25px;
+        padding-bottom: 28px;
+    }
+    .promo_left_text a {
+        font-size: 20px;
+        padding: 14px 76px 14px 76px;
+    }
+    #pro_banner {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .player_one {
+        top: 0;
+        left: 50%;
+    }
+    .player_img_item {
+        padding-top: 300px;
+        padding-bottom: 300px;
+        margin-top: 0;
+    }
+    .player_two {
+        top: 50%;
+        left: 0;
+    }
+    .player_three {
+        top: 50%;
+        right: 0;
+    }
+    .player_four {
+        left: 50%;
+        bottom: 0;
+    }
+    .player_text {
+        margin-top: 25px;
+    }
+    #bonus {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .bonus_item h3 {
+        font-size: 44px;
+        padding-bottom: 35px;
+    }
+    .bonus_item h4 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+    .bonus_item p {
+        padding: 0;
+    }
+    .bonus_text {
+        margin-top: 15px;
+    }
+    /* promotion ===============promotion.html end */
 } 
 /*  medium device end  */
 /*  small device start  */
@@ -978,6 +1095,7 @@
     .log_left {
         margin-top: 10px;
     }
+    
     /* login.html part  */
     
 /* contact ====================contact.html start */
@@ -999,13 +1117,98 @@
 .p-0 {
 	padding: 10px !important;
 }
-/* contact ====================contact.html end */
+/* contact ====================contact.html start */
+/* promotion ====================promotion.html end */
+#pro_banner {
+	padding-top: 10px;
+    padding-bottom: 40px;
+}
+.promo_left_text {
+	margin-top: 80px;
+}
+.promo_img_overlay h3 {
+	font-size: 48px;
+	line-height: 48px;
+}
+.promo_left_text h3 {
+	font-size: 125px
+}
+.promo_left_text p {
+	font-size: 34px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 0;
+}
+.promo_left_text h4 {
+	font-size: 56px;
+	padding-left: 0;
+	padding-bottom: 25px;
+}
+.promo_left_text a {
+	font-size: 20px;
+	padding: 14px 50px 14px 50px;
+	margin-left: 0;
+}
+#players {
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+.player_one {
+	top: 0;
+	left: 50%;
+}
+.player_two {
+	top: 50%;
+	left: -45px;
+}
+.player_three {
+	top: 50%;
+	right: -45px;
+}
+.player_four {
+	left: 50%;
+	bottom: 0;
+}
+.player_text {
+	margin-top: 35px;
+    text-align: center;
+}
+.player_text h3 {
+	font-size: 44px;
+	padding-bottom: 35px;
+}
+#bonus {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.bonus_item h3 {
+	font-size: 38px;
+	padding-bottom: 35px;
+}
+.bonus_item h4 {
+	padding-bottom: 25px;
+}
+.bonus_item p {
+	font-size: 16px;
+	padding: 0;
+	text-align: justify;
+}
+.bonus_text {
+	margin-top: 15px;
+}
+/* promotion ====================promotion.html end */
 }
 /*  small device end  */
 /* extra small device start  */
 @media(max-width:575.98px){
     .navbar {
         padding-top: 10px;
+        position: relative;
+    }
+    .navbar-toggler i {
+        position: absolute;
+        top: 85px;
+        right: 5%;
     }
     .navbar-nav{
         text-align: center;
@@ -1478,5 +1681,98 @@
 	line-height: 50px;
 }
 /* member ====================contact.html end */
+/* promotion ====================promotion.html end */
+#pro_banner {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.promo_left_text {
+	margin-top: 25px;
+	text-align: center;
+}
+.promo_img_overlay h3 {
+	font-size: 45px;
+	line-height: 47px;
+}
+.promo_left_text h3 {
+	font-size: 150px;
+}
+.promo_left_text p {
+	font-size: 40px;
+	padding-top: 30px;
+    padding-left: 0;
+}
+.promo_left_text h4 {
+	font-size: 70px;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+.promo_left_text a {
+	font-size: 20px;
+	padding: 10px 40px 10px 40px;
+    margin-left: 0;
+}
+.player_img_item {
+	padding-top: 400px;
+	padding-bottom: 400px;
+}
+.player_one {
+	top: -40px;
+	left: 50%;
+}
+.player_two {
+    top: 25%;
+    left: 50%;
+    transform:translateX(-50%) ;
+    -webkit-transform:translateX(-50%) ;
+    -moz-transform:translateX(-50%) ;
+    -ms-transform:translateX(-50%) ;
+    -o-transform:translateX(-50%) ;
+}
+.player_three {
+    top:446px;
+    right: 50%;
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+}
+.player_four {
+	left: 50%;
+	bottom: -168px;
+}
+.player_text h3 {
+	font-size: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+	padding-top: 20px;
+    line-height: 30px;
+}
+.player_text p {
+	font-size: 14px;
+	text-align: center;
+}
+#bonus {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.bonus_item h3 {
+	font-size: 30px;
+	padding-bottom: 30px;
+	line-height: 35px;
+}
+.bonus_item h4 {
+	font-size: 16px;
+	padding-bottom: 25px;
+}
+.bonus_item p {
+	font-size: 16px;
+	padding: 0 5px;
+}
+.bonus_text {
+	margin-top: 15px;
+}
+/* promotion ====================promotion.html end */
 }
 /* extra small end */

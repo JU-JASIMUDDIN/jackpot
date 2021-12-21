@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jackpot/singup</title>
+    <title>Jackpot/Promotions</title>
     <link type="images/png" rel="shortcurt icon" href="images//sitebar_logo.png">
 
     <!-- google fonts  -->
@@ -24,7 +24,7 @@
 </head>
 <body>
     <!--============== nav part start  ==============-->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar promo_nav navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html"> About us </a>
@@ -41,147 +41,107 @@
                     <li class="nav-item">
                         <a class="nav-link" href="games.html">Games </a>
                     </li>
-                    <li class="nav-item  ">
+                    <li class="nav-item price_nav">
                         <a class="nav-link" href="#">Pricing </a>
                         <ul>
                             <li><a href="member.html">Member</a></li>
-                            <li><a href="promotion.html">Promotions</a></li>
+                            <li><a href="#">Promotions</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="#">FAQ</a>
                     </li>
-                    <li class="nav-item log_item">
-                        <a class="nav-link logs" href="#">Signup</a>
-                        <a class="nav-link logs" href="login.html">Login</a>
+                    <li class="nav-item log_item ">
+                        <a class="nav-link logs " href="singup.html">Signup</a>
+                        <a class="nav-link logs " href="login.html">Login</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--============== nav part end  ==============-->
-    <!--============== banner part start  ==============-->
-    <section id="about_banner">
-        <div class="container posi">
-           <div class="row">
-               <div class="col-lg-12 text-center">
-                   <div class="about">
-                       <div class="about_text">
-                           <h3>Signup</h3>
-                           <h4>Home > Signup</h4>
-                       </div>
-                   </div>
-               </div>
-            </div>
-                <!-- banner right part end  -->
-                <!-- position part start  -->
-                <div class="about_position p_text">
-                    <h3>01</h3>
-                    <h4>Register</h4>
-                    <p>Download the app and signup for account</p>
-                </div>
-                <div class="about_position_two p_text">
-                    <h3>02</h3>
-                    <h4>Get Ready</h4>
-                    <p>Deposit & get ready for play betting</p>
-                </div>
-                 <div class="about_position_three p_text">
-                    <h3>03</h3>
-                    <h4>Enjoy</h4>
-                    <p>Betting more and more & enjoy game</p>
-                </div>
-                <!-- position part end  -->
-           </div>
-        </div>
-    </section>
-    <!--============== banner part end  ==============-->
-    <!--============= signup part START  ==============-->
-    <section id="singup">
+    <!--============== pro_banner part start  ==============-->
+   
+    <section id="pro_banner">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-5">
-                    <div class="signup_img_part">
-                        <div class="signup_img">
-                            <img src="images/Signup.png" alt="sign_img" class="w-100 img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-7">
-                    <div class="signup">
-                        <div class="signup_head">
-                            <h4>Sign up</h4>
-                            <p>Register quickly to get all other facilities</p>
-                        </div>
-                        <div class="form">
-                            <form action="#" method="post">
-                                <div class="user_name">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="sign_field">
-                                                <input type="text" placeholder="your full name" id="fname">
-                                                <div class="err" id="fname_err"></div>
-                                                <div class="sign_icon">
-                                                    <i class="fa fa-user"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="sign_field">
-                                                <input type="text" placeholder="user name" id="user_name">
-                                                <div class="err" id="use_err"></div>
-                                                <div class="sign_icon">
-                                                    <i class="fa fa-user"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sign_field">
-                                    <input type="text" placeholder="your e-mail here" id="e_mail">
-                                    <div class="err" id="e_err"></div>
-                                    <div class="sign_icon">
-                                        <i class="fa fa-envelope"></i>
-                                    </div>
-                                </div>
-                                <div class="sign_field">
-                                    <input type="text" placeholder="your password here" id="password">
-                                    <div class="err" id="pass_err"></div>
-                                    <div class="sign_icon">
-                                        <i class="fa fa-lock"></i>
-                                    </div>
-                                </div>
-                                <div class="sign_field mb">
-                                    <button type="submit" onclick="return sign()">Signup</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="form_btm_item">
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-6 col-md-6">
-                                    <div class="form_left_text">
-                                        <h4>Do you have already an account?</h4>
-                                        <a href="#">Sign in</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mt-lg-3 col-sm-6 col-md-6 text-right mt-2">
-                                    <div class="form_right_text">
-                                        <h4>Or Register with</h4>
-                                    </div>
-                                    <div class="frt">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                    </div>
-                                    <div class="frt frt_pos">
-                                        <a  href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+            <div class="row no-gutters">
+                <div class="col-lg-7 col-sm-7">
+                    <div class="promo_banner_img">
+                        <div class="promo_img">
+                            <img src="images/promo_banner.png" alt="promo_banner" class="w-100 img-fluid">
+                            <div class="promo_img_overlay">
+                                <h3>Wild
+                                    Luck</h3>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-5 col-sm-5 ">
+                    <div class="promo_left_item">
+                        <div class="promo_left_text">
+                            <h3>1000</h3>
+                            <p>Welcome Coins
+                            </p>
+                            <h4>Gift Card</h4>
+                            <a href="#">Play for Free</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!--============== signup part END  ==============-->
+     <!--============== pro_banner part end  ==============-->
+     <!--============== players part start   ==============-->
+     <section id="players">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="player_img_item">
+                        <div class="player_one">    
+                            <img src="images/player_one.png" alt="player_one" class="w-100 img-fluid">
+                        </div>
+                        <div class="player_two">    
+                            <img src="images/player_two.png" alt="player_two" class="w-100 img-fluid">
+                        </div>
+                        <div class="player_three">    
+                            <img src="images/player_three .png" alt="player_three" class="w-100 img-fluid">
+                        </div>
+                        <div class="player_four">    
+                            <img src="images/player_four.png" alt="/player_four" class="w-100 img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="player_text">
+                        <h3>Existent Players Promotions:</h3>
+                        <p>From Monday to Sunday you can choose from one to all of our amazing promotions.
+                            </p>
+                            <p class="play_text">We offer one different for each day</p>
+                            <p class="play_text">Redeem your coupon code at the cashier, Prior to making your deposit</p>
+                            <p class="play_text">Contact our live chat for details</p>
+                            <p class="play_text">All our bonuses are 5 stars!!!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!--============== players part end  ==============-->
+     <!--============== bonus part end  ==============-->
+     <section id="bonus">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-12 text-center m-auto">
+                     <div class="bonus_item">
+                        <h3>The Best Bonuses on the Internet!</h3>
+                        <h4>Claiming your BONUS is easy:</h4>
+                       <p>Just Download the software, or sign in through the Instant play...Redeem your Coupon Code at the cashier prior to making your deposit. A Bonus Coupon Code can be also redeemed after your deposit is complete, but only if it has not been played on any game. Coupon codes are valid only for deposits of $25 or more.
+                           <span class="bonus_text">Please read the terms and conditions for each bonus carefully. In addition, each of our bonuses and promotions are subject to Las Vegas USA Casino’s General Rules and Regulations</span></p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!--============== bonus part end  ==============-->
     <!--============== sub_pay part START  ==============-->
     <section id="subscript">
         <div class="container">
@@ -194,22 +154,22 @@
                         <div class="email">
                             <form action="#" method="post">
                                <div class="email_field">
-                                <input type="email" placeholder="Your e-mail here" id="email">
-                                <div class="err" id="eml_err"></div>
+                                <input type="email" placeholder="your e-mail here" id="email">
+                                <div class="mail_err" id="eml_err"></div>
                                </div>
-                               <div class="buttton_field game_field" onclick="return sub()" id="button">
+                               <div class="buttton_field  promo_btn_field" onclick="return sub()">
                                    <button type="submit"><i class="fa fa-paper-plane"></i></button>
                                </div>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-6 ">
                     <div class="payment">
                         <div class="subscrribe_head">
                             <h4>Payment Method</h4>
                         </div>
-                        <div class="payment_type text-lg-left text-sm-center">
+                        <div class="payment_type text-xl-left text-lg-left  text-sm-center">
                             <div class="visa">
                                 <a href="#"><img src="images/paypal.png" alt="paypal" class="w-100 img-fluid"></a>
                             </div>
@@ -245,7 +205,7 @@
                         <div class="footer_para">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
                         </div>
-                        <div class="footer_icons ">
+                        <div class="footer_icons">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-google-plus" ></i></a>
