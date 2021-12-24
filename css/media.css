@@ -1205,9 +1205,9 @@
         padding-top: 10px;
         position: relative;
     }
-    .navbar-toggler i {
+    .navbar .navbar-toggler {
         position: absolute;
-        top: 85px;
+        top: 76px;
         right: 5%;
     }
     .navbar-nav{
