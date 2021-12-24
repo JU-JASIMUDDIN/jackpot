@@ -1594,6 +1594,20 @@
 	padding-bottom: 90px;
 	background: #150035;
 }
+.game_overlay_text h4 {
+	font-size: 12px;
+}
+
+.slick-dots li button{
+    font-size: 0;
+    height: 5px;
+    width:5px;
+ }
+ .slick-dots li.slick-active{
+     height:0px;
+
+     width: 0px;
+ }
 /* about ====================about.html end */
 /* singup ====================singup.html start */
 #singup {
