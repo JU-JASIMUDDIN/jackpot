@@ -302,6 +302,11 @@
     .navbar-nav{
         text-align: center;
     }
+    .navbar .navbar-toggler {
+        position: absolute;
+        top: 80px;
+        right: 5%;
+    }
     .navbar-nav li ul {
         margin-top: 25px;
         z-index: 99;
@@ -705,6 +710,11 @@
     .navbar-nav{
         /* text-align: center; */
         display:block;
+    }
+    .navbar .navbar-toggler {
+        position: absolute;
+        top: 80px;
+        right: 5%;
     }
     .navbar-nav li ul {
         margin-top: 20px;
@@ -1197,6 +1207,14 @@
 	margin-top: 15px;
 }
 /* promotion ====================promotion.html end */
+/*  error ==================== error.html end */
+.error_text h4 {
+	font-size: 78px;
+}
+.error_text h3 {
+	font-size: 100px;
+}
+/*  error ==================== error.html end */
 }
 /*  small device end  */
 /* extra small device start  */
@@ -1207,7 +1225,7 @@
     }
     .navbar .navbar-toggler {
         position: absolute;
-        top: 76px;
+        top: 80px;
         right: 5%;
     }
     .navbar-nav{
@@ -1280,7 +1298,7 @@
         bottom: -250px;
     }
     .p_text h4 {
-        font-size: 20px;
+        font-size: 14px;
     }
     .p_text h3 {
         font-size: 40px;
@@ -1288,6 +1306,7 @@
     .p_text p {
         font-size: 14px;
         line-height: 16px;
+        padding: 0 4px;
     }
     .position_two {
         padding-bottom: 26px;
@@ -1361,7 +1380,7 @@
         padding-bottom: 100px;
     }
     .pricin_head_text h3 {
-        font-size: 14px;
+        font-size: 40px;
         padding-bottom: 0;
     }
     .pricing_item_tp {
@@ -1596,17 +1615,21 @@
 }
 .game_overlay_text h4 {
 	font-size: 12px;
+    padding-bottom: 15px;
 }
-
+.game_overlay_text a {
+	padding: 10px 8px;
+	border-bottom: 3px solid #3a0090;
+	font-size: 10px;
+}
 .slick-dots li button{
     font-size: 0;
-    height: 5px;
-    width:5px;
+    height: 8px;
+    width:8px;
  }
  .slick-dots li.slick-active{
-     height:0px;
-
-     width: 0px;
+     height:16px;
+     width: 16px;
  }
 /* about ====================about.html end */
 /* singup ====================singup.html start */
@@ -1788,5 +1811,18 @@
 	margin-top: 15px;
 }
 /* promotion ====================promotion.html end */
+/*  error====================error.html end */
+.error_text {
+	left: 50%;
+	top: 40%;
+}
+.error_text h4 {
+	font-size: 62px;
+	padding-bottom: 15px;
+}
+.error_text h3 {
+	font-size: 77px;
+}
+/*  error====================error.html end */
 }
 /* extra small end */
